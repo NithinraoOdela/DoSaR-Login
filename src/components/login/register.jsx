@@ -8,9 +8,18 @@ export class Register extends React.Component {
 
     handlerclick = () => {
 
-        alert('Registered')
-        // window.open('https://github.com/Github', '_self')
-        window.open('https://github.com/Github', '_self')
+        
+        var un = document.getElementById("isd").value
+        if (un ==="") {
+            
+            alert("Blank / Invalid ID")
+            window.open('', '_self')
+        }
+        else{
+            
+            alert("Registerd")
+            window.open('login.jsx', '_self')
+        }
 
 
     }
@@ -29,7 +38,7 @@ export class Register extends React.Component {
                         <div className="form">
                             <div className="form-group">
                                 <label htmlFor="Campus ID">Campus ID</label>
-                                <input type="text" name="Campus ID" placeholder="Campus ID" required  />
+                                <input type="text" name="Campus ID" id="isd" placeholder="Campus ID" required  />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="email">Email</label>
@@ -42,7 +51,7 @@ export class Register extends React.Component {
                         </div>
                     </div>
                     <div className="footer1">
-                        <button type="button" className="btn"  onClick={this.handlerclick} > <a href="kk.jsx" className="tt">Register</a>
+                        <button type="button" className="btn"  onClick={this.handlerclick} > Register
 
                         </button>
                     </div>
