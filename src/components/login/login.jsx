@@ -41,7 +41,7 @@ export class Login extends React.Component {
             }
             else{
 
-                alert("Invalid Email ID or Invalid Password ")
+                alert("Invalid Email-ID or Invalid Password ")
             }
             
         }
