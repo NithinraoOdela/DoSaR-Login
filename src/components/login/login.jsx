@@ -18,11 +18,11 @@ export class Login extends React.Component {
         var un = document.getElementById("isd").value
         var ul = document.getElementById("isdd").value
         // var uk = document.getElementById("btt")
-        if (un  === "2019A8PS0429G" && ul === "Nithinrao@123"  || (un  === "DoSaR" && ul === "DoSaR"  ){  //Nithin
+        if (un  === "2019A8PS0429G" && ul === "Nithinrao@123"){  //Nithin
             
             window.open('https://nithinraoodela.github.io/Registration/', '_self')
         }
-        else if (un  === "2019A4PS0501G" && ul === "Nithinrao@123" ){  //CHARAN YADAV
+        else if ( || (un  === "DoSaR" && ul === "DoSaR"  ){  //CHARAN YADAV
             
             
             window.open("https://nithinraoodela.github.io/Registration/",'_self')
