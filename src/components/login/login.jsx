@@ -22,12 +22,11 @@ export class Login extends React.Component {
             
             window.open('https://nithinraoodela.github.io/Registration/', '_self')
         }
-        else if ( || (un  === "DoSaR" && ul === "DoSaR"  ){  //CHARAN YADAV
-            
-            
-            window.open("https://nithinraoodela.github.io/Registration/",'_self')
-            
-        }
+         } else if (un === "DoSaR" && ul === "DoSaR") {
+      //CHARAN YADAV
+
+      window.open("https://nithinraoodela.github.io/Registration/", "_self");
+    }
         else if (un  === "2019A7PS0124G" && ul === "Nithinrao@123" ){ //Addepalli Guru Sai Manikanta Bhaskar
             window.open('ind4.html', "_blank")
         }
